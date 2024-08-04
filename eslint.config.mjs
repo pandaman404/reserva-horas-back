@@ -25,7 +25,9 @@ export default [
             'module-resolve',
             {
               alias: {
-                '@routes': path.resolve(__dirname, 'src/routes')
+                '@routes': path.resolve(__dirname, 'src/routes'),
+                '@controllers': path.resolve(__dirname, 'src/controllers'),
+                '@config': path.resolve(__dirname, 'src/config')
               }
             }
           ]
